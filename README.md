@@ -1,4 +1,4 @@
-# midi_reader
+# midi_piano
 
 By Daniel M. Friberg, 2018
 
@@ -11,8 +11,10 @@ NOTE TO RECRUITERS - While this project is in its infancy, I hope it can at leas
 the ability to write legible code with a consistent style, ability to interface with hardware, and knowledge of object 
 oriented principles. In particular, midi_message and midi_message_handler might be useful to look at.
 
+Currently, it is capable of reading in MIDI data into a more usable format. Next steps are to provide feedback for input by
+playing a single frequency beep to the appropriate audio driver.
 
-midi_reader is a console program that is capable of low level communications with MIDI devices. Currently, it only
+midi_piano is a console program that is capable of low level communications with MIDI devices. Currently, it only
 capable of handling input data. Classes are made to handle the data and output it in a human readible format. By 
 default, it simply streams the human readible data back out to standard output.
 
